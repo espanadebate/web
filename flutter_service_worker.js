@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "e539fc02b01edae38792018b1fb1ace1",
+  "assets/AssetManifest.json": "90e7eee786d2cc0b6cbf026549579eef",
 "assets/assets/facebook.png": "afd3002f8c5ab441531f9d1458d8e4e4",
 "assets/assets/Gotham.ttf": "b54724f54d4dd3f6796e3c4cc422f998",
 "assets/assets/GothamBold.ttf": "db33e70bc9dee9fa9ae9737ad83d77ba",
@@ -24,6 +24,7 @@ const RESOURCES = {
 "assets/assets/spain_icon.png": "def18c3238afcaabd2f8d0fd7cb04d5f",
 "assets/assets/spain_icon_phone.png": "65be0d5657340ba59418bf7e031e538e",
 "assets/assets/twitter.png": "dbe912faa8567227aa056ae3ea08c381",
+"assets/assets/ucjc.png": "7ee0a1a2cb9effcec29358e300128c96",
 "assets/assets/upv.png": "7bc221efe9fae3571071835046344e39",
 "assets/assets/valencia_big.png": "b351ad824028aa649db060a9a9522209",
 "assets/assets/valencia_bubble.png": "c922ab3437fc0434941ea145dd9748ae",
@@ -34,9 +35,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "a7937526ded3f3eae69e10b7b13e010d",
-"/": "a7937526ded3f3eae69e10b7b13e010d",
-"main.dart.js": "1dc77e1a6d1d2a1b3eb19785e0e64cc6",
+"index.html": "e30308236bd01635c59a23f7848efbb4",
+"/": "e30308236bd01635c59a23f7848efbb4",
+"main.dart.js": "0e6f70c302966b6207ecc091995b9849",
 "manifest.json": "b9ba0c68f2301160b01327784f03551b",
 "version.json": "b1093c30f71a930a709b6a881199183d"
 };
