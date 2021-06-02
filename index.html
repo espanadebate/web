@@ -32,6 +32,16 @@
   <title>Campeonato de España de Debate</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBWDC2K9C6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZBWDC2K9C6');
+  </script>
+
   <style>
       .loading {
         display: flex;
@@ -86,7 +96,7 @@
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '2030274361';
+    var serviceWorkerVersion = '196645489';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
