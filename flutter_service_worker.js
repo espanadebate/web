@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6963cf8193d6db5817cfa38f03998e0d",
+  "assets/AssetManifest.json": "adb413705df32553f73710f9bfa3dc38",
 "assets/assets/abellan.png": "dd58ae3bd6d97dd15369008da491be41",
 "assets/assets/bellanco.png": "06093f50880dc29fb01f0edad3f7987b",
 "assets/assets/bisa.png": "1a82087c79b0855175c8478e31cb4edd",
@@ -36,6 +36,8 @@ const RESOURCES = {
 "assets/assets/logo_small.png": "a1f14b43d746fedda7ed47c4c3c2490e",
 "assets/assets/logo_top.png": "2ed555eba2b260f61df21a7b49d7deff",
 "assets/assets/lumbreras.png": "00899b015f5e7c2e34cc4cabe78f2dd8",
+"assets/assets/maria.png": "4e1cf9d7ddfad07d581ab28a92e60f38",
+"assets/assets/monedero.png": "2b2eeacf24e6ad7fb6850feaee4d583a",
 "assets/assets/olaizola.png": "0cf7c64565e8c92b480d546d8c915a70",
 "assets/assets/olmos.png": "b8b82de40d09e99c972c467e4d72b011",
 "assets/assets/oviedo_big.png": "0329f76f6ad1f418e881219a39105e44",
@@ -56,15 +58,15 @@ const RESOURCES = {
 "assets/assets/valencia_big.png": "b351ad824028aa649db060a9a9522209",
 "assets/assets/valencia_bubble.png": "c922ab3437fc0434941ea145dd9748ae",
 "assets/FontManifest.json": "e8c16efba0dde2c1f133db17af527123",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "7702243984bbad1af794d87a36895655",
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/NOTICES": "f9dbef4571e0aee1a8283e2e75e53667",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "9a7dddc7cafb8d4c548db241f04049de",
-"/": "9a7dddc7cafb8d4c548db241f04049de",
-"main.dart.js": "d7303c1eb1f37a3478f0cdb786ea1baa",
+"index.html": "eeb3b02d88fce42699965c4114fa0e7c",
+"/": "eeb3b02d88fce42699965c4114fa0e7c",
+"main.dart.js": "b85d1453e3d5862c545cdc7084a1a988",
 "manifest.json": "b9ba0c68f2301160b01327784f03551b",
 "version.json": "b1093c30f71a930a709b6a881199183d"
 };
@@ -84,7 +86,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value, {'cache': 'reload'})));
+        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
     })
   );
 });
