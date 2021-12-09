@@ -59,16 +59,20 @@ const RESOURCES = {
 "assets/assets/valencia_bubble.png": "c922ab3437fc0434941ea145dd9748ae",
 "assets/FontManifest.json": "e8c16efba0dde2c1f133db17af527123",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "6b9a0a4769817d9457dd30c9edb511e2",
+"assets/NOTICES": "0b84a76781359f253b5d66a69e8b64b9",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
+"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498",
+"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
+"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "2777a27a1502f2684aa420a7f2db9627",
-"/": "2777a27a1502f2684aa420a7f2db9627",
-"main.dart.js": "ee516b5c27acf1a891d0f7287e20b7ff",
+"index.html": "26c92c9dd8eb86c6dd927573c3ef6f5a",
+"/": "26c92c9dd8eb86c6dd927573c3ef6f5a",
+"main.dart.js": "bc779a07aed35edeb7646b8396d07993",
 "manifest.json": "b9ba0c68f2301160b01327784f03551b",
-"version.json": "b1093c30f71a930a709b6a881199183d"
+"version.json": "0741495e2798c079055dbbb32e97c279"
 };
 
 // The application shell files that are downloaded before a service worker can
