@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "adb413705df32553f73710f9bfa3dc38",
+  "assets/AssetManifest.json": "b432d9de98a12adcf66a87f366c9004b",
 "assets/assets/abellan.png": "dd58ae3bd6d97dd15369008da491be41",
 "assets/assets/bellanco.png": "06093f50880dc29fb01f0edad3f7987b",
 "assets/assets/bisa.png": "1a82087c79b0855175c8478e31cb4edd",
@@ -44,6 +44,7 @@ const RESOURCES = {
 "assets/assets/oviedo_bubble.png": "a84b0f9beea4411e17a7a3d8160354ee",
 "assets/assets/perdiguer.png": "d0b08382ecb6627e9a83db9163ed2bf2",
 "assets/assets/perucho.png": "375798f091314088a4d9d051e3881986",
+"assets/assets/politica_inscripcion.pdf": "f6e6d72d74554e5f283d930583a96500",
 "assets/assets/prieto.png": "08f5b1a3d5c34633267ba568f130c41e",
 "assets/assets/rosalia.png": "fb4ccfb6e3ee81bba369573bb131a03b",
 "assets/assets/secret.png": "39c24839669875ae000a2ffc481bdc2e",
@@ -68,9 +69,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "1b39e3db7e2be18f99d02070f7772dd3",
-"/": "1b39e3db7e2be18f99d02070f7772dd3",
-"main.dart.js": "c0ba6cce209593c99e6500bf36f59580",
+"index.html": "69127582a9a5dfdcf6a70471659bcd9e",
+"/": "69127582a9a5dfdcf6a70471659bcd9e",
+"main.dart.js": "15f589b2e76ef53d181997e6ab0cfa9e",
 "manifest.json": "b9ba0c68f2301160b01327784f03551b",
 "version.json": "0741495e2798c079055dbbb32e97c279"
 };
